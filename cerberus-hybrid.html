@@ -41,6 +41,21 @@
     <!-- CSS Reset : BEGIN -->
     <style>
 
+               /* Default link styles */
+               a {
+            color: blue !important; /* Default link color */
+            text-decoration: underline !important;
+        }
+
+        /* Visited link */
+        a:visited {
+            color: purple !important;
+        }
+        /* Override dark mode styles specifically for links */
+        a {
+            color: #4da6ff !important; /* Light blue for better contrast */
+        }
+
         /* What it does: Tells the email client that both light and dark styles are provided. A duplicate of meta color-scheme meta tag above. */
         :root {
           color-scheme: light dark;
@@ -147,7 +162,7 @@
                 min-width: 414px !important;
             }
         }
-
+        
     </style>
     <!-- CSS Reset : END -->
 
@@ -198,7 +213,7 @@
 	            font-size: 17px !important;
 	        }
 	    }
-
+ 
         /* Dark Mode Styles : BEGIN */
         @media (prefers-color-scheme: dark) {
             .email-bg {
@@ -214,7 +229,7 @@
             li,
             .darkmode-text,
             .email-container a:not([class]) {
-                color: #F7F7F9 !important;
+                color: #f7f7f9 !important;
             }
             td.button-td-primary,
             td.button-td-primary a {
@@ -284,18 +299,11 @@
 		        <!-- Email Header : BEGIN -->
 	            <tr>
 	                <td style="padding: 20px 0; text-align: center">
-	                    <img src=![SPLICElogo](/SPLICE Logos and Images/Splice horizontal transparent background.png) width="200" height="50" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                        <a href="https://www.splice-project.org">
+	                    <img src="splice-logos-images/Splice-horizontal-transparent-background.svg" width="300" height="60" alt="SPLICE logo" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;"> 
 	                </td>
 	            </tr>
 		        <!-- Email Header : END -->
-
-	            <!-- Hero Image, Flush : BEGIN -->
-                <tr>
-                    <td style="background-color: #ffffff;" class="darkmode-bg">
-                        <img src=![SPLICElogo]splice-logos-images/splice-horizontal-transparent width="680" height="" alt="alt_text" border="0" style="width: 100%; max-width: 680px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto; display: block;" class="g-img">
-                    </td>
-                </tr>
-                <!-- Hero Image, Flush : END -->
 
                 <!-- 1 Column Text + Button : BEGIN -->
                 <tr>
@@ -303,26 +311,21 @@
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <h1 align="center" style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">SPLICE Biweekly Newsletter</h1>
-                                    <p style="margin: 0 0 10px;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
+                                    <h1 align="center" style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">Biweekly Newsletter</h1>
+                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #85 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Tuesday February 4, 2025</h1>
+                                    <hr>
+                                    <br>
+                                    <p style="margin: 0 0 10px; font-size: 16px"> Announcements </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;" class="list-item-first">A list item.</li>
-										<li style="margin:0 0 10px 30px;">Another list item here.</li>
-										<li style="margin: 0 0 0 30px;" class="list-item-last">Everyone gets a list item, list items for everyone!</li>
+										<li style="margin:0 0 10px 30px;" class="list-item-first">Students, PostDocs, Junior Faculty: After our all-hands meeting this past November, SPLICE profs discussed availability of funding for conference travel. Each of the SPLICE PIs are committed to sending their "SPLICE graduate students, postdoctoral scholars, and junior faculty [...] to [...] at least one conference to network and connect with [...] professionals experienced in their field" (<a href="https://drive.google.com/file/d/1u-HQHajAELD1MF8FaRQ-akS7zpJkWE9X/view?usp=share_link">SPLICE proposal</a>). If you have a publication accepted at a conference or find a conference relevant to your work, please ask your faculty advisor about attending the conference. Along with funding being available through SPLICE, students, postdocs, and junior faculty are encouraged to look and apply for travel grants provided by the conference itself, their academic departments, as well as professional organizations. We encourage you to discuss whether these additional funding opportunities exist with your advisors, peers, and graduate program administrators. Thank you to the students and postdocs who brought this topic to our attention. If you have any additional questions, please feel free to reach out to me (Tina) or your advisor. </li>
+										<li style="margin:0 0 10px 30px"> SPLICE Outreach: Publishing in and presenting at conferences is one form of outreach. As SPLICE research develps and matures, part of our goal is to increase our outreach -- informing the community and the world about our findings -- including reaching the general public. One outlet for such work is <a href="https://theconversation.com/us">The Conversation</a>. <a href="https://theconversation.com/us">The Conversation</a> is an online site that publishes opinion pieces by academics. It is a non-profit, funded by foundations, universities, and the general public. Its purpose is to spread information about academic research more widely. The Conversation uses a Creative Commons license allowing reuse so long as the piece is published in full. SPLICE PI Susan Landau (Tufts) has published several pieces in The Conversation. Some have reappeared in local papers, while others have been reprinted in online versions of major ones, including the Los Angeles Times. Pieces would have to be of relatively wide interest; a very technical fix or attack would not do well. The Conversation provides professional editors to polish submissions. Faculty and PhD students can publish in The Conversation, although the site does not currenctly accept pieces by master's students. Information about writing for The Conversation is <a href=https://theconversation.com/become-an-author>here</a>.  </li>
+                                        <li style="margin:0 0 10px 30px;"class="list-item-last">SPLICE project group meetings: Are you part of a cross-institutional SPLICE project? If yes, please let me know, even if you are scheduling your own meetings. Knowing that these meetings are happening will help me in preparing the SPLICE annual report. And if your project group would like assistance in scheduling recurring meetings, please reach out to me! </li>
+                                    </ul>
+                                    <br>
+                                    <p style="margin: 0 0 10px; font-size: 16px"> Upcoming Events </p>
+                                    <ul style="padding: 0; margin: 0; list-style-type: disc;">
+										<li style="margin:0 0 10px 30px;" class="list-item-last"> Our next SPLICE stand-up is at 9:30am ET (8:30am CT) on Friday February 21, 2025. Each grad student/postdoc will be asked to briefly share accomplishments from the past month and goals for the coming month. A slide deck for the meeting is <a href="https://docs.google.com/presentation/d/1kRf5jGFg-3-i31fd-7r3KaRjzfDZDjBntzYrPsiqJ7E/edit#slide=id.g1f87997393_0_782">here</a>. Students and postdocs, please fill out your slide before the meeting on February 21st. Filling out your slide should take no longer than 5 minutes. Brief bullet points are sufficient. </li>
 									</ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding: 0 20px 20px;">
-                                    <!-- Button : BEGIN -->
-                                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
-                                        <tr>
-                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
-											     <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Centered Primary Button</a>
-											</td>
-                                        </tr>
-                                    </table>
-                                    <!-- Button : END -->
                                 </td>
                             </tr>
 
@@ -330,301 +333,6 @@
                     </td>
                 </tr>
                 <!-- 1 Column Text + Button : END -->
-
-                <!-- Background Image with Text : BEGIN -->
-                <tr>
-                    <!-- Bulletproof Background Images c/o https://backgrounds.cm -->
-                    <td style="text-align: center; background-image: url('https://via.placeholder.com/680x180/222222/666666'); background-color: #222222; background-position: center center !important; background-size: cover !important;">
-                        <!--[if gte mso 9]>
-                        <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0; display: inline-block; width: 680px; height: 180px;" src="https://via.placeholder.com/680x180/222222/666666" />
-                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0; display: inline-block; position: absolute; width: 680px; height: 180px;">
-                        <v:fill opacity="0%" color="#222222" />
-                        <![endif]-->
-                        <div>
-                            <!--[if mso]>
-                            <table align="center" role="presentation" border="0" cellspacing="0" cellpadding="0" width="500">
-                            <tr>
-                            <td width="500">
-                            <![endif]-->
-                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500px; margin: auto;">
-                                <tr>
-                                    <td style="text-align: center; padding: 40px 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;">
-                                        <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
-                                    </td>
-                                </tr>
-                            </table>
-                            <!--[if mso]>
-                            </td>
-                            </tr>
-                            </table>
-                            <![endif]-->
-                        </div>
-                        <!--[if gte mso 9]>
-                        </v:fill>
-                        </v:rect>
-                        </v:image>
-                        <![endif]-->
-                    </td>
-                </tr>
-                <!-- Background Image with Text : END -->
-
-                <!-- 2 Even Columns : BEGIN -->
-                <tr>
-                    <td align="center" valign="top" style="font-size:0; padding: 10px; background-color: #ffffff;" class="darkmode-bg">
-                        <!--[if mso]>
-                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
-                        <tr>
-                        <td valign="top" width="330">
-                        <![endif]-->
-                        <div style="display:inline-block; margin: 0 -1px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td style="padding: 10px;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px; text-align: left;">
-                                            <tr>
-                                                <td>
-                                                    <img src="https://via.placeholder.com/310" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--[if mso]>
-                        </td>
-                        <td valign="top" width="330">
-                        <![endif]-->
-                        <div style="display:inline-block; margin: 0 -1px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td style="padding: 10px;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                            <tr>
-                                                <td>
-                                                    <img src="https://via.placeholder.com/310" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--[if mso]>
-                        </td>
-                        </tr>
-                        </table>
-                        <![endif]-->
-                    </td>
-                </tr>
-                <!-- 2 Even Columns : END -->
-
-                <!-- 3 Even Columns : BEGIN -->
-                <tr>
-                    <td align="center" valign="top" style="font-size:0; padding: 10px; background-color: #ffffff;" class="darkmode-bg">
-                        <!--[if mso]>
-                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660">
-                        <tr>
-                        <td valign="top" width="220">
-                        <![endif]-->
-                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td style="padding: 10px;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                            <tr>
-                                                <td>
-                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--[if mso]>
-                        </td>
-                        <td valign="top" width="220">
-                        <![endif]-->
-                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td style="padding: 10px;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                            <tr>
-                                                <td>
-                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--[if mso]>
-                        </td>
-                        <td valign="top" width="220">
-                        <![endif]-->
-                        <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td style="padding: 10px;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                            <tr>
-                                                <td>
-                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--[if mso]>
-                        </td>
-                        </tr>
-                        </table>
-                        <![endif]-->
-                    </td>
-                </tr>
-                <!-- 3 Even Columns : END -->
-
-                <!-- Thumbnail Left, Text Right : BEGIN -->
-                <tr>
-                    <td style="font-size:0; padding: 10px; text-align: left; background-color: #ffffff;" class="darkmode-bg">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                            <tr>
-                                <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
-                                <td dir="ltr" height="100%" valign="top" width="100%">
-                                    <!--[if mso]>
-                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
-                                    <tr>
-                                    <td valign="top" width="220" style="width: 220px;">
-                                    <![endif]-->
-                                    <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
-                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <!--[if mso]>
-                                    </td>
-                                    <td valign="top" width="440" style="width: 440px;">
-                                    <![endif]-->
-                                    <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
-                                                    <h2 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 22px; color: #333333; font-weight: bold;">Class aptent taciti sociosqu</h2>
-                                                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                    <!-- Button : BEGIN -->
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
-                                                        <tr>
-                                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
-                                                                <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Primary Button</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                    <!-- Button : END -->
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <!--[if mso]>
-                                    </td>
-                                    </tr>
-                                    </table>
-                                    <![endif]-->
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!-- Thumbnail Left, Text Right : END -->
-
-                <!-- Thumbnail Right, Text Left : BEGIN -->
-                <tr>
-                    <td style="font-size:0; padding: 10px; text-align: left; background-color: #ffffff;" class="darkmode-bg">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                            <tr>
-                                <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
-                                <td dir="rtl" height="100%" valign="top" width="100%">
-                                    <!--[if mso]>
-                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
-                                    <tr>
-                                    <td valign="top" width="220" style="width: 220px;">
-                                    <![endif]-->
-                                    <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
-                                                    <img src="https://via.placeholder.com/200" width="200" height="" border="0" alt="alt_text" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <!--[if mso]>
-                                    </td>
-                                    <td valign="top" width="440" style="width: 440px;">
-                                    <![endif]-->
-                                    <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
-                                                    <h2 style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 22px; color: #333333; font-weight: bold;">Class aptent taciti sociosqu</h2>
-                                                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                                    <!-- Button : BEGIN -->
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
-                                                        <tr>
-                                                            <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
-                                                                <a class="button-a button-a-primary" href="https://google.com/" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Primary Button</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                    <!-- Button : END -->
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <!--[if mso]>
-                                    </td>
-                                    </tr>
-                                    </table>
-                                    <![endif]-->
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!-- Thumbnail Right, Text Left : END -->
 
                 <!-- Clear Spacer : BEGIN -->
                 <tr>
@@ -634,35 +342,19 @@
                 </tr>
                 <!-- Clear Spacer : END -->
 
-                <!-- 1 Column Text : BEGIN -->
-                <tr>
-                    <td style="background-color: #ffffff;" class="darkmode-bg">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                            <tr>
-                                <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!-- 1 Column Text : END -->
-
             </table>
+                <!-- Button : BEGIN -->
+                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                    <tr>
+                        <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                            <a class="button-a button-a-primary" href="mailto:tina.pavlovich@dartmouth.edu" style="background: #222222; border: 1px solid #000000; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Do you have questions or news to share? Send me an email!</a>
+                        </td>
+                    </tr>
+                    </table>
+                <!-- Button : END -->
             <!-- Email Body : END -->
 
             <!-- Email Footer : BEGIN -->
-            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 680px;" class="footer">
-                <tr>
-                    <td style="padding: 20px; font-family: sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #ffffff;">
-                        <webversion style="color: #ffffff; text-decoration: underline; font-weight: bold;">View as a Web Page</webversion>
-                        <br><br>
-		                Company Name<br><span class="unstyle-auto-detected-links">123 Fake Street, SpringField, OR, 97477 US<br>(123) 456-7890</span>
-                        <br><br>
-                        <unsubscribe style="color: #ffffff; text-decoration: underline;">unsubscribe</unsubscribe>
-                    </td>
-                </tr>
-            </table>
             <!-- Email Footer : END -->
 
             <!--[if mso]>
@@ -671,34 +363,6 @@
             </table>
             <![endif]-->
         </div>
-
-        <!-- Full Bleed Background Section : BEGIN -->
-        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #709f2b;" class="darkmode-fullbleed-bg">
-            <tr>
-                <td>
-                    <div align="center" style="max-width: 680px; margin: auto;" class="email-container">
-                        <!--[if mso]>
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
-                        <tr>
-                        <td>
-                        <![endif]-->
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                            <tr>
-                                <td style="padding: 20px; text-align: left; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;">
-                                    <p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <!--[if mso]>
-                        </td>
-                        </tr>
-                        </table>
-                        <![endif]-->
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <!-- Full Bleed Background Section : END -->
 
     <!--[if mso | IE]>
     </td>
