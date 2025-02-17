@@ -7,7 +7,7 @@ X-Universally-Unique-Identifier: C04D641A-7784-4FDE-AB5C-A0190843469F
 X-Apple-Mail-Remote-Attachments: YES
 From: Tina Pavlovich <f0051sz@dartmouth.edu>
 X-Apple-Windows-Friendly: 1
-Date: Tue, 4 Feb 2025 20:10:04 -0500
+Date: Mon, 17 Feb 2025 16:10:04 -0500
 X-Apple-Mail-Signature: 
 Message-Id: <70D4B0BE-25DC-483C-B52E-A0BB96B5AFCF@dartmouth.edu>
 X-Uniform-Type-Identifier: com.apple.mail-draft
@@ -194,6 +194,16 @@ Content-Type: text/html;
     <!-- Progressive Enhancements : BEGIN -->
     <style>
 
+	    /* What it does: Hover styles for buttons */
+	    .button-td,
+	    .button-a {
+	        transition: all 100ms ease-in;
+	    }
+	    .button-td-primary:hover,
+	    .button-a-primary:hover {
+	        background: #555555 !important;
+	        border-color: #555555 !important;
+	    }
 
 	    /* Media Queries */
 	    @media screen and (max-width: 480px) {
@@ -315,7 +325,7 @@ Content-Type: text/html;
 	            <tr>
 	                <td style="padding: 20px 0; text-align: center">
                         <a href="https://www.splice-project.org">
-	                    <img src="https://splice-project.org/wp-content/uploads/2020/06/splice-logo-only-transparent-background.png" width="35" height="35" alt="SPLICE logo" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;"> 
+	                    <img src="https://private-user-images.githubusercontent.com/73177995/414003658-17fe911d-fc59-4dac-a95e-0922c9c686ff.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MjQ2ODAsIm5iZiI6MTczOTgyNDM4MCwicGF0aCI6Ii83MzE3Nzk5NS80MTQwMDM2NTgtMTdmZTkxMWQtZmM1OS00ZGFjLWE5NWUtMDkyMmM5YzY4NmZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDIwMzMwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZmMmEzMTY1MjRiYWJlODc0MmExZTIxNzUyNTM2ZWU0MDJjMDYyNDRiZDBiYmIwMDNjNzAxYmE2OWVjMDAwYmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2l2FdgcdSn_ljwhaSd8K4uZVuMBVF8oyrjuAlqWL8RY" width="300" height="60" alt="SPLICE logo" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;"> 
 	                </td>
 	            </tr>
 		        <!-- Email Header : END -->
@@ -326,21 +336,24 @@ Content-Type: text/html;
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr>
                                 <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                    <h1 align="center" style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">SPLICE Biweekly Newsletter</h1>
-                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #86 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Tuesday February 4, 2025</h1>
+                                    <h1 align="center" style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">Biweekly Newsletter</h1>
+                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #87 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Monday February 17, 2025</h1>
                                     <hr>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> Announcements </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;" class="list-item-first">Students, PostDocs, Junior Faculty: After our all-hands meeting this past November, SPLICE profs discussed availability of funding for conference travel. Each of the SPLICE PIs are committed to sending their "SPLICE graduate students, postdoctoral scholars, and junior faculty [...] to [...] at least one conference to network and connect with [...] professionals experienced in their field" (<a href="https://drive.google.com/file/d/1u-HQHajAELD1MF8FaRQ-akS7zpJkWE9X/view?usp=share_link">SPLICE proposal</a>). If you have a publication accepted at a conference or find a conference relevant to your work, please ask your faculty advisor about attending the conference. Along with funding being available through SPLICE, students, postdocs, and junior faculty are encouraged to look and apply for travel grants provided by the conference itself, their academic departments, as well as professional organizations. We encourage you to discuss whether these additional funding opportunities exist with your advisors, peers, and graduate program administrators. Thank you to the students and postdocs who brought this topic to our attention. If you have any additional questions, please feel free to reach out to me (Tina) or your advisor. </li>
-										<li style="margin:0 0 10px 30px"> SPLICE Outreach: Publishing in and presenting at conferences is one form of outreach. As SPLICE research develps and matures, part of our goal is to increase our outreach -- informing the community and the world about our findings -- including reaching the general public. One outlet for such work is <a href="https://theconversation.com/us">The Conversation</a>. <a href="https://theconversation.com/us">The Conversation</a> is an online site that publishes opinion pieces by academics. It is a non-profit, funded by foundations, universities, and the general public. Its purpose is to spread information about academic research more widely. The Conversation uses a Creative Commons license allowing reuse so long as the piece is published in full. SPLICE PI Susan Landau (Tufts) has published several pieces in The Conversation. Some have reappeared in local papers, while others have been reprinted in online versions of major ones, including the Los Angeles Times. Pieces would have to be of relatively wide interest; a very technical fix or attack would not do well. The Conversation provides professional editors to polish submissions. Faculty and PhD students can publish in The Conversation, although the site does not currenctly accept pieces by master's students. Information about writing for The Conversation is <a href=https://theconversation.com/become-an-author>here</a>.  </li>
-                                        <li style="margin:0 0 10px 30px;"class="list-item-last">SPLICE project group meetings: Are you part of a cross-institutional SPLICE project? If yes, please let me know, even if you are scheduling your own meetings. Knowing that these meetings are happening will help me in preparing the SPLICE annual report. And if your project group would like assistance in scheduling recurring meetings, please reach out to me! </li>
+										<li style="margin:0 0 10px 30px;" class="list-item-first">Students and PostDocs, please fill out your slide in the <a href="https://docs.google.com/presentation/d/1kRf5jGFg-3-i31fd-7r3KaRjzfDZDjBntzYrPsiqJ7E/edit#slide=id.g1f87997393_0_782">February 2025 standup</a> deck. If you do not have a slide, please let me know or add a slide with your name. All students and postdocs are expected to fill out a slide and present it at the meeting (more info on the meeting below). All team members are expected to attend this SPLICE stand-up meeting; if you are unable to attend the meeting, please let me know beforehand. Students and postdocs, if you are unable to attend, you are still required to fill out your slide.   </li>
+										<li style="margin:0 0 10px 30px"> Congratulations to Yeeun Jo, SPLICE PhD student at UIUC and lead author on a new paper accepted at CHI’25 — <i>“I’m not as afraid as a woman might be about sharing my exact location:” On the Intersection of Identity and Privacy Concerns in Fitness Tracking</i>. </li>
+                                        <li style="margin:0 0 10px 30px;"class="list-item-last">If you've had a paper recently published, please send it to me, so that I can get it posted on the SPLICE public <a href="https://splice-project.org/">blog</a>.  </li>
                                     </ul>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> Upcoming Events </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;" class="list-item-last"> Our next SPLICE stand-up is at 9:30am ET (8:30am CT) on Friday February 21, 2025. Each grad student/postdoc will be asked to briefly share accomplishments from the past month and goals for the coming month. A slide deck for the meeting is <a href="https://docs.google.com/presentation/d/1kRf5jGFg-3-i31fd-7r3KaRjzfDZDjBntzYrPsiqJ7E/edit#slide=id.g1f87997393_0_782">here</a>. Students and postdocs, please fill out your slide before the meeting on February 21st. Filling out your slide should take no longer than 5 minutes. Brief bullet points are sufficient. </li>
+										<li style="margin:0 0 10px 30px;" class="list-item-last"> THIS WEEK: Our next SPLICE stand-up is at 9:30am ET (8:30am CT) on Friday February 21, 2025. Each grad student/postdoc will be asked to briefly share accomplishments from the past month and goals for the coming month. A slide deck for the meeting is <a href="https://docs.google.com/presentation/d/1kRf5jGFg-3-i31fd-7r3KaRjzfDZDjBntzYrPsiqJ7E/edit#slide=id.g1f87997393_0_782">here</a>. Students and postdocs, please fill out your slide before the meeting on February 21st. Filling out your slide should take no longer than 5 minutes. Brief bullet points are sufficient. </li>
 									</ul>
+                                    <br>
+                                    <p style="margin: 0 0 10px; font-size: 16px"> SPLICE-er Snapshots </p>
+                                    <ul style="padding: 0; margin: 0; list-style-type: disc;">
                                 </td>
                             </tr>
 
@@ -348,6 +361,52 @@ Content-Type: text/html;
                     </td>
                 </tr>
                 <!-- 1 Column Text + Button : END -->
+
+                <!-- Thumbnail Left, Text Right : BEGIN -->
+                <tr>
+                    <td style="font-size:0; padding: 10px; text-align: left; background-color: #ffffff;" class="darkmode-bg">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
+                                <td dir="ltr" height="100%" valign="top" width="100%">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                                    <tr>
+                                    <td valign="top" width="220" style="width: 220px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                                    <img src="https://private-user-images.githubusercontent.com/73177995/414001484-399804d5-902a-49db-8d88-1f045b8cc095.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MjQwMTIsIm5iZiI6MTczOTgyMzcxMiwicGF0aCI6Ii83MzE3Nzk5NS80MTQwMDE0ODQtMzk5ODA0ZDUtOTAyYS00OWRiLThkODgtMWYwNDViOGNjMDk1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDIwMjE1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk1NzNiMWM1OTNiN2M1Mjc0MmU0OTkyNjk4Y2FkODNlY2ZhMGJkZTgxZWRlYzFmYTA0MWVlMGQzNjdiNzZiODkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mI7uR9_agLx3Ckvaj2pVoP-PK6dP92aOAJw-g-zQopY" width="200" height="" border="0" alt="Chixiang, Cesar, and Ravi" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="440" style="width: 440px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                                    <p style="margin: 0 0 10px 0;">Chixiang, Cesar, and Ravi on the way to <a href="https://admissions.dartmouth.edu/follow/blog/cooper-ballard/foco-honest-review">Foco</a>.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Thumbnail Left, Text Right : END -->
 
             </table>
                 <!-- Button : BEGIN -->
