@@ -7,7 +7,7 @@ X-Universally-Unique-Identifier: 94AFDC61-2BA4-45FA-9748-64779FD5976D
 X-Apple-Mail-Remote-Attachments: YES
 From: Tina Pavlovich <f0051sz@dartmouth.edu>
 X-Apple-Windows-Friendly: 1
-Date: Mon, 3 Mar 2025 11:50:01 -0500
+Date: Tue, 18 Mar 2025 05:50:01 -0500
 X-Apple-Mail-Signature: 
 Message-Id: <EC708D81-D64F-483F-8215-5B3F29274971@dartmouth.edu>
 X-Uniform-Type-Identifier: com.apple.mail-draft
@@ -339,26 +339,26 @@ Content-Type: text/html;
                             <tr>
                                 <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <h1 align="center" style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">Biweekly Newsletter</h1>
-                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #88 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Monday March 3, 2025</h1>
+                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #89 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Tuesday March 18, 2025</h1>
                                     <hr>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> Announcements </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;" class="list-item-first">Professors: If you are recruiting postdocs, PhD students, or folks for other SPLICE-related positions this calendar year, a reminder to please send me position details so that the position can be cross-posted on the SPLICE website. 
+										<li style="margin:0 0 10px 30px;" class="list-item-first">  It’s time to start scheduling for spring! If you already have your schedules for spring term, please include your conflicts in <a href="https://docs.google.com/spreadsheets/d/1WfK9usnJHLsgkD_DFLYaBUV83FmPIWlArq1NpIH6MEI/edit?gid=329921245#gid=329921245">this</a> whennot2meet document. If you do not see your name, please make a copy of the “Example” tab, rename it with your name, link it to the README page, and fill in your conflicts. And if you don’t have your spring term schedule yet, let me know! Filling out these calendars will help me find better times for recurring team meetings, and help you schedule any additional meetings with team members. Thank you! 
                                         </li>
-										<li style="margin:0 0 10px 30px"> If you've had a paper recently published, please send it to me, so that I can get it posted on the SPLICE public <a href="https://splice-project.org/">blog</a>. </li>
-                                        <li style="margin:0 0 10px 30px;"class="list-item-last"> Ravi presented <a href="https://dl.acm.org/doi/10.1145/3641554.3701956">"Engaging Students from Under-Represented Groups to Pursue Graduate School in Computer Science and Engineering"</a> at <a href="https://sigcse2025.sigcse.org">SIGCSE 2025</a>. Check out the photo below!</li>
-                                        <img src="https://splice-project.org/wp-content/uploads/2025/02/img_4076.jpg?w=2048" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
+										<li style="margin:0 0 10px 30px"> Congratulations to Vinton Morris and Prof Kevin Kornegay (Morgan State) on the publication of their paper: "<a href="https://ieeexplore.ieee.org/document/10903861">Flow Table Modification Using Behavioral-Based Fingerprinting Technique to Facilitate Zero Trust Identity Management and Access Control</a>." </li>
+                                        <li style="margin:0 0 10px 30px;"class="list-item-last"> César Argüello Martínez, Ravi Mangar, and Chixiang Wang (Dartmouth) presented cybersecurity topics to local highschool students. Check out the photo below!</li>
+                                        <img src="https://splice-project.org/wp-content/uploads/2025/03/img_3284.jpg?w=2048" width="310" height="" border="0" alt="alt_text" style="width: 100%; max-width: 310px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="center-on-narrow">
                                     </ul>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> Upcoming Events </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;" class="list-item-last"> Our next SPLICE stand-up is at 3:45pm ET (2:45pm CT) on Monday March 17, 2025. Each grad student/postdoc will be asked to briefly share accomplishments from the past month and goals for the coming month. A slide deck for the meeting is <a href="https://docs.google.com/presentation/d/1JrQlyZ6GMnFzEZyRbYyk85DbaIRFKMiZ59XVrgmKqI8/edit#slide=id.g1f87997393_0_782">here</a>. Students and postdocs, please fill out your slide before the meeting on March 17th. Filling out your slide should take no longer than 5 minutes. Brief bullet points are sufficient. </li>
+										<li style="margin:0 0 10px 30px;" class="list-item-last"> Our April SPLICE stand-up has yet to be scheduled! Please fill out the whennot2meet (link above) for spring, so that this meeting can also be scheduled! </li>
 									</ul>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> SPLICE-er Spotlight </p>
-                                    <p style="margin: 0 0 10px; font-size: 16px"> <b>César Argüello Martínez</b> </p>
-                                    <p style="margin: 0 0 0px; font-size: 16px">PhD Candidate at Dartmouth College </p>
+                                    <p style="margin: 0 0 10px; font-size: 16px"> <b>Muhammad Hassan</b> </p>
+                                    <p style="margin: 0 0 0px; font-size: 16px">Third year PhD student in Information Science, working with Dr. Masooda Bashir at UIUC </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
                                 </td>
                             </tr>
@@ -368,60 +368,19 @@ Content-Type: text/html;
                 </tr>
                 <!-- 1 Column Text + Button : END -->
 
-                <!-- Thumbnail Left, Text Right : BEGIN -->
-                <tr>
-                    <td style="font-size:0; padding: 10px; text-align: left; background-color: #ffffff;" class="darkmode-bg">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                            <tr>
-                                <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
-                                <td dir="ltr" height="100%" valign="top" width="100%">
-                                    <!--[if mso]>
-                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
-                                    <tr>
-                                    <td valign="top" width="220" style="width: 220px;">
-                                    <![endif]-->
-                                    <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
-                                                    <img src="https://sliceprojectorg.wordpress.com/wp-content/uploads/2025/02/img_3249.jpg" width="200" height="" border="0" alt="Cesar in the lab." class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <!--[if mso]>
-                                    </td>
-                                    <td valign="top" width="440" style="width: 440px;">
-                                    <![endif]-->
-                                    <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0px 10px 0; text-align: left;" class="center-on-narrow">
-                                                    <p style="margin: 30 0 10px 0;"><b>We caught up with you when you first joined SPLICE. What have you learned about IoT research, security and privacy, or graduate school since then?</b></p>
-                                                    <p style="margin: 0 0 10px 0;">Many people told me when I first started graduate school that there would be a lot of failures. It didn’t really sink in, but now, two and a half years in, I can say that there are a lot of failures. Failed experiments, paper rejections, that kind of stuff. But you learn, and it’s a very nice experience in a way – an oxymoron. But you become more resilient with each failure. And trying new things in the same research area, I’ve gained more experience and practical knowledge that helps things progress faster. </p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <!--[if mso]>
-                                    </td>
-                                    </tr>
-                                    </table>
-                                    <![endif]-->
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <!-- Thumbnail Left, Text Right : END -->
-
                 <!-- 1 Column Text + Button : BEGIN -->
                 <tr>
                     <td style="background-color: #ffffff;" class="darkmode-bg">
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                 <td style="padding: 0px 20px 20px 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                                        <p style="margin: 0 0 10px 0;">Though learning about Ravi’s project on decommissioning, I realize that there are many decommissioning scenarios and nuances with each of these scenarios. I realized that this is part of IoT research. I had previously thought of decommissioning in the general sense, but Ravi’s project highlights edge cases that I never considered but are important. </p>
-                                        <p style="margin: 0 0 10px 0;">And I wasn’t very familiar with the topic of privacy prior to my work on SPLICE. I could see the privacy problem, but reading Nathan’s paper, <a href="https://www.computer.org/csdl/proceedings-article/sp/2023/933600c112/1Js0EECmM2k"> “Optimistic Access Control for the Smart Home”</a> I realized there’s a whole sequence of events that I hadn’t previously considered. The smart-home is a very complex system, and in any complex system you’ll have interactions that the model you envision doesn’t encapsulate.</p>
+                                        <p style="margin: 0 0 10px 0;"><b>What’s your specific research field?</b></p>
+                                        <p style="margin: 0 0 10px 0;">I started my PhD focused on web security, then shifted to mobile applications. After I took my PhD qualification exam, my focus again shifted, and now I am working on health technologies, specifically IoT and mobile health devices. It’s more of a niche field. I am looking at the concerns and usability issues in emerging health IoT devices and mobile applications. </p>
+                                        <p style="margin: 0 0 10px 0;"><b>What’s one interesting thing about that field that the rest of the team might not know?</b></p>
+                                        <p style="margin: 0 0 10px 0;">I am currently looking at the Matter protocol, which is only a couple of years old. That’s a relatively short period of time, and in that time, it’s gotten a lot of attention. The protocol was designed to make IoT devices from various manufacturers interoperable. I am currently trying to understand why medical devices can (or can’t) adhere to the protocol. There isn’t a lot of work in this space. And with a lot of people using medical IoT devices for health reasons, it would be beneficial to expand Matter to include those devices. </p>
+                                        <p style="margin: 0 0 10px 0;"><b> What’s one topic you’re interested in learning more about with SPLICE?</b></p>
+                                        <p style="margin: 0 0 10px 0;">I am particularly excited to learn a bit more about the hardware side of things – hardware security.</p>
+                                        <p style="margin: 0 0 10px 0;"><b>  If you could do another job for a day, what would it be?</b></p>
+                                        <p style="margin: 0 0 10px 0;">Ah, it’s easy to forget that other jobs exist after being a PhD student for a while! I would be a shopkeeper selling potions in the 14th or 15th century. I think people were a lot less stressed back then.</p>
                                 </td>
 
                         </table>
