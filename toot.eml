@@ -1,4 +1,4 @@
-Subject: SPLICE Biweekly Newsletter Issue #96
+Subject: SPLICE Biweekly Newsletter Issue #97
 Mime-Version: 1.0 (Mac OS X Mail 16.0 \(3776.700.51\))
 Content-Type: multipart/alternative;
 	boundary="Apple-Mail=_4E03EE15-6DCB-4FED-9F61-487E2F59AC00"
@@ -7,7 +7,7 @@ X-Universally-Unique-Identifier: 94AFDC61-2BA4-45FA-9748-64779FD5976D
 X-Apple-Mail-Remote-Attachments: YES
 From: Tina Pavlovich <f0051sz@dartmouth.edu>
 X-Apple-Windows-Friendly: 1
-Date: Mon, 13 Oct 2025 12:11:01 -0500
+Date: Tues, 28 Oct 2025 14:11:01 -0500
 X-Apple-Mail-Signature: 
 Message-Id: <EC708D81-D64F-483F-8215-5B3F29274971@dartmouth.edu>
 X-Uniform-Type-Identifier: com.apple.mail-draft
@@ -339,32 +339,115 @@ Content-Type: text/html;
                             <tr>
                                 <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
                                     <h1 align="center" style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #333333; font-weight: normal;">(Somewhat) Biweekly Newsletter</h1>
-                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #96 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Monday October 13, 2025</h1>
+                                    <h2 align="center" style="margin: 0 0 10px; font-size: 16px; line-height: 20px; color: #333333; font-weight: normal;">Issue #97 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Tuesday October 28, 2025</h1>
                                     <hr>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> Announcements </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;"class="list-item-first"> Nathan Reitinger (UMD) accepted a fellowship at the Northwestern Pritzker School of Law, where he serves as the Empirical Fellow in Law and Computer Science. The fellowship provides him the opportunity to pursue independent research while also contributing to collaborative projects that apply data-driven methods to better understand American jurisprudence and the functioning of the legal system. In this role, he works primarily with Professors Dave Schwartz and Zach Clopton, focusing on a novel federal judiciary dataset that contains the complete record of two years of federal district court filings for the state of Illinois. This work aims to shed new light on litigation artifacts, judicial behavior, and the broader dynamics of the federal courts. You can reach him at nathan.reitinger@law.northwestern.edu. </li>                                    
-                                        <li style="margin:0 0 10px 30px;">  Congratulations to Dr. Chongkon Zaman (Morgan State) on passing his dissertation defense! &#127881 </li>
-                                        <li style="margin:0 0 10px 30px;">  Congratulations to Chixiang Wang (Dartmouth) on passing his thesis proposal! &#127881 </li>    
-                                        <li style="margin:0 0 10px 30px;">  Congratulations to Ravi Mangar (Dartmouth), Jared Chandler (Dartmouth), Jingyu Qian (UIUC), and Profs Carl Gunter (UIUC), Tim Pierson (Dartmouth), and David Kotz (Dartmouth) on their paper, "A Trigger for the Autonomous Decommissioning of Smart Devices" being accepted to the Proceedings of the International Conference on the Internet of Things. &#127881 </li>           
-                                        <li style="margin:0 0 10px 30px;"class="list-item-last"> We have a new advisor from Microsoft! <a href="https://www.linkedin.com/in/sindhura-bandhakavi/">Sindhura Bandhakavi</a> is the Director of Engineering, Azure AI Foundry at Microsoft. Sindhura will be one of the speakers at our virtual workshop in early December on career trends in academia/industry/government. Stay tuned for more info about the event!</li>
+										<li style="margin:0 0 10px 30px;"class="list-item-first"> Congratulations to Muhammad Hassan (UIUC) on passing his preliminary exam! His presentation was titled "From Smart Homes to Smart Healthcare: Opportunities and Challenges of Adapting the Matter Standard for IoMT." His committee consisted of
+Professor Masooda Bashir (Chair), School of Information Science UIUC;
+Professor Carl Gunter, School of Computing and Data Science UIUC;
+Professor Susan Landau, Cybersecurity and Policy, Computer Science, Tufts University; and
+Professor Michael Twidale, School of Information Science UIUC. &#127881 </li>                                    
+                                        <li style="margin:0 0 10px 30px;"> Chixiang Wang (Dartmouth) presented his research: "Moat: Adaptive Inside/Outside Detection System for Smart Homes"
+at UbiComp 2025! Check out the SPLICE-er Snapshots section below for pictures. </li>  
+                                        <li style="margin:0 0 10px 30px;" class="list-item-last">  Congratulations to César Argüello Martínez (Dartmouth) on passing his thesis proposal! &#127881 </li>           
                                     </ul>
                                     <br>
                                     <p style="margin: 0 0 10px; font-size: 16px"> Upcoming Events </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-										<li style="margin:0 0 10px 30px;" class="list-item-first"> Our October SPLICE stand-up meeting is scheduled for Monday October 20, 2025 at 1:15pm ET (12:15pm CT). Each grad student/postdoc will be asked to briefly share accomplishments from the past month and goals for the coming month. A slide deck for the meeting is <a href="https://docs.google.com/presentation/d/1dfw8ozofh96VKrX4zAF9wDiuAv5RPjb2bb_AW9zpE3g/edit?slide=id.g1f87997393_0_782#slide=id.g1f87997393_0_782"> here</a>. Students and postdocs, please fill out your slide before the meeting tomorrow! Filling out your slide should take no longer than 5 minutes. Brief bullet points are sufficient.</li>
+										<li style="margin:0 0 10px 30px;" class="list-item-first"> Our November SPLICE stand-up meeting is scheduled for Monday November 17, 2025 at 1:15pm ET (12:15pm CT). Each grad student/postdoc will be asked to briefly share accomplishments from the past month and goals for the coming month. A slide deck for the meeting is <a href="https://docs.google.com/presentation/d/1XJ_SJmQxQtoRfP_zDinfEZmdP4MXp0MVJ5ZVw7Oq4AA/edit?slide=id.g36d14272c75_0_0#slide=id.g36d14272c75_0_0"> here</a>. Students and postdocs, please fill out your slide before the meeting. Filling out your slide should take no longer than 5 minutes. Brief bullet points are sufficient. <b> As a reminder, all students, postdocs, and faculty are expected to attend.</b></li>
                                         <li style="margin:0 0 10px 30px;"class="list-item-last"> Early December: We will have a virtual workshop focused on career trends in academia, industry, and government, with representatives from each of those sectors. Stay tuned for more details! </li>
-                                    </ul>
+                                       </ul>
                                     <br>
+                                    <p style="margin: 0 0 10px; font-size: 16px"> SPLICE-er Snapshots </p>
                                     <ul style="padding: 0; margin: 0; list-style-type: disc;">
-                                </td>
                             </tr>
 
                         </table>
                     </td>
                 </tr>
                 <!-- 1 Column Text + Button : END -->
+
+                <!-- Thumbnail Left, Text Right : BEGIN -->
+                <tr>
+                    <td style="font-size:0; padding: 10px; text-align: left; background-color: #ffffff;" class="darkmode-bg">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
+                                <td dir="ltr" height="100%" valign="top" width="100%">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                                    <tr>
+                                    <td valign="top" width="220" style="width: 220px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                                    <img src="https://splice-project.org/wp-content/uploads/2025/10/img_5243-2.jpg?w=4000&h=" width="200" height="" border="0" alt="Wide-angle shot of Chixiang presenting." class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="440" style="width: 440px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                                    <p style="margin: 0 0 10px 0;">Chixiang Wang (Dartmouth) presenting at UbiComp.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
+                                <td dir="ltr" height="100%" valign="top" width="100%">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="660" style="width: 660px;">
+                                    <tr>
+                                    <td valign="top" width="220" style="width: 220px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -1px; max-width: 220px; min-width:160px; vertical-align:top; width:100%;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="padding: 0 10px 10px 10px;">
+                                                    <img src="https://splice-project.org/wp-content/uploads/2025/10/img_0329-2.jpg?w=4000&h=" width="200" height="" border="0" alt="Cesar and Dartmouth CS grad students presenting posters" class="center-on-narrow" style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="440" style="width: 440px;">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -1px; max-width: 440px; min-width:280px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td dir="ltr" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 10px 10px 0; text-align: left;" class="center-on-narrow">
+                                                    <p style="margin: 0 0 10px 0;"></p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Thumbnail Left, Text Right : END -->
 
             </table>
                 <!-- Button : BEGIN -->
